@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StockManager.Models
+namespace StockManager.Domain.Models
 {
-    class Stock
+    public class Stock
     {
+        public string Symbol { get; set; }
+        public double PricePerShare { get; set; }
     }
 }
